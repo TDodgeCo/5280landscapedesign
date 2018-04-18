@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>5280 Landscape Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  {{ css('./css/style') }}
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <b>5280 Landscape Design</b>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item">
+              Services
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="dropdown-items navbar-item">
+                Landscape Design
+              </a>
+              <a class="dropdown-items navbar-item">
+                Xeriscaping
+              </a>
+              <a class="dropdown-items navbar-item">
+                Outdoor Living
+              </a>
+            </div>
+          </div>
+          <a class="navbar-item" href="#">Projects</a>
+          <a class="navbar-item" href="#">About Us</a>
+          <a class="navbar-item" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  @!section('content')
+  <footer>
+    <div class="container">
+        <div class="columns is-mobile">
+          <div class="column">
+            <div class="hero-body">
+              <p class="subtitle">Footer navigation and social media links will go here.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="hero-body">
+              <p class="subtitle">A blurb about the company will go here. Expect 2-3 sentences.</p>
+            </div>
+          </div>
+          <div class="column">
+            <img src="./images/logo.svg" alt="5280 landscape design logo">
+          </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
